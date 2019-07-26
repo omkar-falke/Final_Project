@@ -1,0 +1,426 @@
+package snippet;
+
+public class Snippet {
+	2019-07-25 23:30:02.594  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1564077602594, current=UP, previous=STARTING]
+	2019-07-25 23:30:02.594  INFO 2864 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082: registering service...
+	2019-07-25 23:30:02.602  INFO 2864 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082 - registration status: 204
+	2019-07-25 23:30:02.608  INFO 2864 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+	2019-07-25 23:30:02.608  INFO 2864 --- [  restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+	2019-07-25 23:30:02.610  INFO 2864 --- [  restartedMain] m.CustomerRelationshipServiceApplication : Started CustomerRelationshipServiceApplication in 1.714 seconds (JVM running for 1505.707)
+	2019-07-25 23:30:02.616  INFO 2864 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+	2019-07-25 23:30:44.776  INFO 2864 --- [      Thread-49] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application CUSTOMER_RELATIONSHIP_SERVICE with eureka with status DOWN
+	2019-07-25 23:30:44.776  WARN 2864 --- [      Thread-49] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1564077644776, current=DOWN, previous=UP]
+	2019-07-25 23:30:44.776  INFO 2864 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082: registering service...
+	2019-07-25 23:30:44.783  INFO 2864 --- [      Thread-49] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+	2019-07-25 23:30:44.785  INFO 2864 --- [      Thread-49] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+	2019-07-25 23:30:44.787  INFO 2864 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082 - registration status: 204
+	2019-07-25 23:30:44.787  INFO 2864 --- [      Thread-49] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+	2019-07-25 23:30:44.794  INFO 2864 --- [      Thread-49] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082 - deregister  status: 200
+	2019-07-25 23:30:44.803  INFO 2864 --- [      Thread-49] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+	2019-07-25 23:30:45.257  INFO 2864 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f4fb9be3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+	
+	  .   ____          _            __ _ _
+	 /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+	( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+	 \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+	  '  |____| .__|_| |_|_| |_\__, | / / / /
+	 =========|_|==============|___/=/_/_/_/
+	 :: Spring Boot ::        (v2.1.6.RELEASE)
+	
+	2019-07-25 23:30:45.351  INFO 2864 --- [  restartedMain] m.CustomerRelationshipServiceApplication : No active profile set, falling back to default profiles: default
+	2019-07-25 23:30:45.874  INFO 2864 --- [  restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=fad44f56-2fda-3d8a-82e8-2730298227a2
+	2019-07-25 23:30:45.894  INFO 2864 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f4fb9be3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+	2019-07-25 23:30:46.091  INFO 2864 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+	2019-07-25 23:30:46.092  INFO 2864 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+	2019-07-25 23:30:46.092  INFO 2864 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+	2019-07-25 23:30:46.110  INFO 2864 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+	2019-07-25 23:30:46.110  INFO 2864 --- [  restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 755 ms
+	2019-07-25 23:30:46.135  WARN 2864 --- [  restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+	2019-07-25 23:30:46.135  INFO 2864 --- [  restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+	2019-07-25 23:30:46.208  INFO 2864 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+	2019-07-25 23:30:46.287  WARN 2864 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+	2019-07-25 23:30:46.533  INFO 2864 --- [  restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+	2019-07-25 23:30:46.536  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+	2019-07-25 23:30:46.543  INFO 2864 --- [  restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+	2019-07-25 23:30:46.543  INFO 2864 --- [  restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+	2019-07-25 23:30:46.543  INFO 2864 --- [  restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+	2019-07-25 23:30:46.543  INFO 2864 --- [  restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+	2019-07-25 23:30:46.636  INFO 2864 --- [  restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+	2019-07-25 23:30:46.638  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+	2019-07-25 23:30:46.638  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+	2019-07-25 23:30:46.638  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+	2019-07-25 23:30:46.638  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+	2019-07-25 23:30:46.638  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+	2019-07-25 23:30:46.638  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+	2019-07-25 23:30:46.639  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+	2019-07-25 23:30:46.645  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+	2019-07-25 23:30:46.646  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+	2019-07-25 23:30:46.647  INFO 2864 --- [  restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+	2019-07-25 23:30:46.649  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1564077646649 with initial instances count: 5
+	2019-07-25 23:30:46.651  INFO 2864 --- [  restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application CUSTOMER_RELATIONSHIP_SERVICE with eureka with status UP
+	2019-07-25 23:30:46.651  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1564077646651, current=UP, previous=STARTING]
+	2019-07-25 23:30:46.652  INFO 2864 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082: registering service...
+	2019-07-25 23:30:46.661  INFO 2864 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082 - registration status: 204
+	2019-07-25 23:30:46.667  INFO 2864 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+	2019-07-25 23:30:46.668  INFO 2864 --- [  restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+	2019-07-25 23:30:46.670  INFO 2864 --- [  restartedMain] m.CustomerRelationshipServiceApplication : Started CustomerRelationshipServiceApplication in 1.572 seconds (JVM running for 1549.767)
+	2019-07-25 23:30:46.675  INFO 2864 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+	2019-07-25 23:31:12.788  INFO 2864 --- [      Thread-60] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application CUSTOMER_RELATIONSHIP_SERVICE with eureka with status DOWN
+	2019-07-25 23:31:12.788  WARN 2864 --- [      Thread-60] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1564077672788, current=DOWN, previous=UP]
+	2019-07-25 23:31:12.788  INFO 2864 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082: registering service...
+	2019-07-25 23:31:12.791  INFO 2864 --- [      Thread-60] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+	2019-07-25 23:31:12.792  INFO 2864 --- [      Thread-60] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+	2019-07-25 23:31:12.795  INFO 2864 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082 - registration status: 204
+	2019-07-25 23:31:12.795  INFO 2864 --- [      Thread-60] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+	2019-07-25 23:31:12.800  INFO 2864 --- [      Thread-60] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082 - deregister  status: 200
+	2019-07-25 23:31:12.808  INFO 2864 --- [      Thread-60] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+	2019-07-25 23:31:13.399  INFO 2864 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f4fb9be3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+	
+	  .   ____          _            __ _ _
+	 /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+	( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+	 \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+	  '  |____| .__|_| |_|_| |_\__, | / / / /
+	 =========|_|==============|___/=/_/_/_/
+	 :: Spring Boot ::        (v2.1.6.RELEASE)
+	
+	2019-07-25 23:31:13.496  INFO 2864 --- [  restartedMain] m.CustomerRelationshipServiceApplication : No active profile set, falling back to default profiles: default
+	2019-07-25 23:31:13.942  INFO 2864 --- [  restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=fad44f56-2fda-3d8a-82e8-2730298227a2
+	2019-07-25 23:31:13.959  INFO 2864 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f4fb9be3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+	2019-07-25 23:31:14.393  INFO 2864 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+	2019-07-25 23:31:14.394  INFO 2864 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+	2019-07-25 23:31:14.395  INFO 2864 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+	2019-07-25 23:31:14.412  INFO 2864 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+	2019-07-25 23:31:14.412  INFO 2864 --- [  restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 913 ms
+	2019-07-25 23:31:14.434  WARN 2864 --- [  restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+	2019-07-25 23:31:14.434  INFO 2864 --- [  restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+	2019-07-25 23:31:14.494  INFO 2864 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+	2019-07-25 23:31:14.564  WARN 2864 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+	2019-07-25 23:31:14.783  INFO 2864 --- [  restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+	2019-07-25 23:31:14.786  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+	2019-07-25 23:31:14.796  INFO 2864 --- [  restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+	2019-07-25 23:31:14.796  INFO 2864 --- [  restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+	2019-07-25 23:31:14.796  INFO 2864 --- [  restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+	2019-07-25 23:31:14.796  INFO 2864 --- [  restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+	2019-07-25 23:31:14.904  INFO 2864 --- [  restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+	2019-07-25 23:31:14.906  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+	2019-07-25 23:31:14.906  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+	2019-07-25 23:31:14.906  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+	2019-07-25 23:31:14.906  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+	2019-07-25 23:31:14.906  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+	2019-07-25 23:31:14.906  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+	2019-07-25 23:31:14.906  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+	2019-07-25 23:31:14.911  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+	2019-07-25 23:31:14.912  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+	2019-07-25 23:31:14.913  INFO 2864 --- [  restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+	2019-07-25 23:31:14.915  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1564077674915 with initial instances count: 5
+	2019-07-25 23:31:14.916  INFO 2864 --- [  restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application CUSTOMER_RELATIONSHIP_SERVICE with eureka with status UP
+	2019-07-25 23:31:14.916  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1564077674916, current=UP, previous=STARTING]
+	2019-07-25 23:31:14.917  INFO 2864 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082: registering service...
+	2019-07-25 23:31:14.923  INFO 2864 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082 - registration status: 204
+	2019-07-25 23:31:14.930  INFO 2864 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+	2019-07-25 23:31:14.931  INFO 2864 --- [  restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+	2019-07-25 23:31:14.932  INFO 2864 --- [  restartedMain] m.CustomerRelationshipServiceApplication : Started CustomerRelationshipServiceApplication in 1.712 seconds (JVM running for 1578.03)
+	2019-07-25 23:31:14.937  INFO 2864 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+	2019-07-25 23:32:41.313  INFO 2864 --- [      Thread-71] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application CUSTOMER_RELATIONSHIP_SERVICE with eureka with status DOWN
+	2019-07-25 23:32:41.313  WARN 2864 --- [      Thread-71] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1564077761313, current=DOWN, previous=UP]
+	2019-07-25 23:32:41.314  INFO 2864 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082: registering service...
+	2019-07-25 23:32:41.320  INFO 2864 --- [      Thread-71] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+	2019-07-25 23:32:41.321  INFO 2864 --- [      Thread-71] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+	2019-07-25 23:32:41.324  INFO 2864 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082 - registration status: 204
+	2019-07-25 23:32:41.326  INFO 2864 --- [      Thread-71] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+	2019-07-25 23:32:41.332  INFO 2864 --- [      Thread-71] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082 - deregister  status: 200
+	2019-07-25 23:32:41.347  INFO 2864 --- [      Thread-71] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+	2019-07-25 23:32:41.936  INFO 2864 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f4fb9be3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+	
+	  .   ____          _            __ _ _
+	 /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+	( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+	 \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+	  '  |____| .__|_| |_|_| |_\__, | / / / /
+	 =========|_|==============|___/=/_/_/_/
+	 :: Spring Boot ::        (v2.1.6.RELEASE)
+	
+	2019-07-25 23:32:42.044  INFO 2864 --- [  restartedMain] m.CustomerRelationshipServiceApplication : No active profile set, falling back to default profiles: default
+	2019-07-25 23:32:42.491  INFO 2864 --- [  restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=fad44f56-2fda-3d8a-82e8-2730298227a2
+	2019-07-25 23:32:42.507  INFO 2864 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f4fb9be3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+	2019-07-25 23:32:42.663  INFO 2864 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+	2019-07-25 23:32:42.664  INFO 2864 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+	2019-07-25 23:32:42.665  INFO 2864 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+	2019-07-25 23:32:42.690  INFO 2864 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+	2019-07-25 23:32:42.690  INFO 2864 --- [  restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 642 ms
+	2019-07-25 23:32:42.723  WARN 2864 --- [  restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+	2019-07-25 23:32:42.723  INFO 2864 --- [  restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+	2019-07-25 23:32:42.785  INFO 2864 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+	2019-07-25 23:32:42.867  WARN 2864 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+	2019-07-25 23:32:43.106  INFO 2864 --- [  restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+	2019-07-25 23:32:43.109  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+	2019-07-25 23:32:43.115  INFO 2864 --- [  restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+	2019-07-25 23:32:43.115  INFO 2864 --- [  restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+	2019-07-25 23:32:43.116  INFO 2864 --- [  restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+	2019-07-25 23:32:43.116  INFO 2864 --- [  restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+	2019-07-25 23:32:43.215  INFO 2864 --- [  restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+	2019-07-25 23:32:43.216  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+	2019-07-25 23:32:43.216  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+	2019-07-25 23:32:43.216  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+	2019-07-25 23:32:43.216  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+	2019-07-25 23:32:43.216  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+	2019-07-25 23:32:43.216  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+	2019-07-25 23:32:43.216  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+	2019-07-25 23:32:43.221  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+	2019-07-25 23:32:43.222  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+	2019-07-25 23:32:43.223  INFO 2864 --- [  restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+	2019-07-25 23:32:43.226  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1564077763226 with initial instances count: 5
+	2019-07-25 23:32:43.228  INFO 2864 --- [  restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application CUSTOMER_RELATIONSHIP_SERVICE with eureka with status UP
+	2019-07-25 23:32:43.229  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1564077763229, current=UP, previous=STARTING]
+	2019-07-25 23:32:43.229  INFO 2864 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082: registering service...
+	2019-07-25 23:32:43.236  INFO 2864 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082 - registration status: 204
+	2019-07-25 23:32:43.243  INFO 2864 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+	2019-07-25 23:32:43.247  INFO 2864 --- [  restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+	2019-07-25 23:32:43.249  INFO 2864 --- [  restartedMain] m.CustomerRelationshipServiceApplication : Started CustomerRelationshipServiceApplication in 1.47 seconds (JVM running for 1666.347)
+	2019-07-25 23:32:43.258  INFO 2864 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+	2019-07-25 23:37:43.224  INFO 2864 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+	2019-07-25 23:42:43.238  INFO 2864 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+	2019-07-25 23:47:43.241  INFO 2864 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+	2019-07-25 23:52:43.244  INFO 2864 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+	2019-07-25 23:57:43.250  INFO 2864 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+	2019-07-25 23:59:42.320  INFO 2864 --- [      Thread-82] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application CUSTOMER_RELATIONSHIP_SERVICE with eureka with status DOWN
+	2019-07-25 23:59:42.321  WARN 2864 --- [      Thread-82] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1564079382321, current=DOWN, previous=UP]
+	2019-07-25 23:59:42.322  INFO 2864 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082: registering service...
+	2019-07-25 23:59:42.342  INFO 2864 --- [      Thread-82] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+	2019-07-25 23:59:42.346  INFO 2864 --- [      Thread-82] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+	2019-07-25 23:59:42.378  INFO 2864 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082 - registration status: 204
+	2019-07-25 23:59:42.380  INFO 2864 --- [      Thread-82] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+	2019-07-25 23:59:42.384  INFO 2864 --- [      Thread-82] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082 - deregister  status: 200
+	2019-07-25 23:59:42.402  INFO 2864 --- [      Thread-82] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+	2019-07-25 23:59:43.709  INFO 2864 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f4fb9be3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+	
+	  .   ____          _            __ _ _
+	 /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+	( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+	 \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+	  '  |____| .__|_| |_|_| |_\__, | / / / /
+	 =========|_|==============|___/=/_/_/_/
+	 :: Spring Boot ::        (v2.1.6.RELEASE)
+	
+	2019-07-25 23:59:43.857  INFO 2864 --- [  restartedMain] m.CustomerRelationshipServiceApplication : No active profile set, falling back to default profiles: default
+	2019-07-25 23:59:45.264  INFO 2864 --- [  restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=fad44f56-2fda-3d8a-82e8-2730298227a2
+	2019-07-25 23:59:45.282  INFO 2864 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f4fb9be3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+	com.wcs.app.jf.main.model2019-07-25 23:59:46.936  INFO 2864 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+	2019-07-25 23:59:46.938  INFO 2864 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+	2019-07-25 23:59:46.939  INFO 2864 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+	2019-07-25 23:59:46.987  INFO 2864 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+	2019-07-25 23:59:46.988  INFO 2864 --- [  restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3127 ms
+	2019-07-25 23:59:47.021  WARN 2864 --- [  restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+	2019-07-25 23:59:47.021  INFO 2864 --- [  restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+	2019-07-25 23:59:47.131  INFO 2864 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+	2019-07-25 23:59:47.238  WARN 2864 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+	2019-07-25 23:59:47.548  INFO 2864 --- [  restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+	2019-07-25 23:59:47.572  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+	2019-07-25 23:59:47.743  INFO 2864 --- [  restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+	2019-07-25 23:59:47.743  INFO 2864 --- [  restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+	2019-07-25 23:59:47.743  INFO 2864 --- [  restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+	2019-07-25 23:59:47.743  INFO 2864 --- [  restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+	2019-07-25 23:59:47.918  INFO 2864 --- [  restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+	2019-07-25 23:59:47.920  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+	2019-07-25 23:59:47.920  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+	2019-07-25 23:59:47.920  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+	2019-07-25 23:59:47.920  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+	2019-07-25 23:59:47.920  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+	2019-07-25 23:59:47.921  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+	2019-07-25 23:59:47.921  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+	2019-07-25 23:59:47.927  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+	2019-07-25 23:59:47.928  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+	2019-07-25 23:59:47.929  INFO 2864 --- [  restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+	2019-07-25 23:59:47.931  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1564079387931 with initial instances count: 5
+	2019-07-25 23:59:47.933  INFO 2864 --- [  restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application CUSTOMER_RELATIONSHIP_SERVICE with eureka with status UP
+	2019-07-25 23:59:47.933  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1564079387933, current=UP, previous=STARTING]
+	2019-07-25 23:59:47.934  INFO 2864 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082: registering service...
+	2019-07-25 23:59:47.939  INFO 2864 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082 - registration status: 204
+	2019-07-25 23:59:47.958  INFO 2864 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+	2019-07-25 23:59:47.959  INFO 2864 --- [  restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+	2019-07-25 23:59:47.963  INFO 2864 --- [  restartedMain] m.CustomerRelationshipServiceApplication : Started CustomerRelationshipServiceApplication in 4.688 seconds (JVM running for 3291.06)
+	2019-07-25 23:59:47.968  INFO 2864 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+	2019-07-26 00:00:03.943  INFO 2864 --- [      Thread-93] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application CUSTOMER_RELATIONSHIP_SERVICE with eureka with status DOWN
+	2019-07-26 00:00:03.943  WARN 2864 --- [      Thread-93] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1564079403943, current=DOWN, previous=UP]
+	2019-07-26 00:00:03.944  INFO 2864 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082: registering service...
+	2019-07-26 00:00:03.947  INFO 2864 --- [      Thread-93] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+	2019-07-26 00:00:03.949  INFO 2864 --- [      Thread-93] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+	2019-07-26 00:00:03.949  INFO 2864 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082 - registration status: 204
+	2019-07-26 00:00:03.949  INFO 2864 --- [      Thread-93] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+	2019-07-26 00:00:03.953  INFO 2864 --- [      Thread-93] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082 - deregister  status: 200
+	2019-07-26 00:00:04.057  INFO 2864 --- [      Thread-93] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+	2019-07-26 00:00:05.468  INFO 2864 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f4fb9be3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+	
+	  .   ____          _            __ _ _
+	 /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+	( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+	 \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+	  '  |____| .__|_| |_|_| |_\__, | / / / /
+	 =========|_|==============|___/=/_/_/_/
+	 :: Spring Boot ::        (v2.1.6.RELEASE)
+	
+	2019-07-26 00:00:06.569  INFO 2864 --- [  restartedMain] m.CustomerRelationshipServiceApplication : No active profile set, falling back to default profiles: default
+	2019-07-26 00:00:07.713  INFO 2864 --- [  restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=fad44f56-2fda-3d8a-82e8-2730298227a2
+	2019-07-26 00:00:07.758  INFO 2864 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f4fb9be3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+	2019-07-26 00:00:08.144  INFO 2864 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+	2019-07-26 00:00:08.145  INFO 2864 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+	2019-07-26 00:00:08.146  INFO 2864 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+	2019-07-26 00:00:08.171  INFO 2864 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+	2019-07-26 00:00:08.171  INFO 2864 --- [  restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1588 ms
+	2019-07-26 00:00:08.199  WARN 2864 --- [  restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+	2019-07-26 00:00:08.199  INFO 2864 --- [  restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+	2019-07-26 00:00:08.279  INFO 2864 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+	2019-07-26 00:00:08.361  WARN 2864 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+	2019-07-26 00:00:08.620  INFO 2864 --- [  restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+	2019-07-26 00:00:08.624  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+	2019-07-26 00:00:08.648  INFO 2864 --- [  restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+	2019-07-26 00:00:08.649  INFO 2864 --- [  restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+	2019-07-26 00:00:08.649  INFO 2864 --- [  restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+	2019-07-26 00:00:08.649  INFO 2864 --- [  restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+	2019-07-26 00:00:08.787  INFO 2864 --- [  restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+	2019-07-26 00:00:08.789  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+	2019-07-26 00:00:08.789  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+	2019-07-26 00:00:08.790  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+	2019-07-26 00:00:08.790  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+	2019-07-26 00:00:08.790  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+	2019-07-26 00:00:08.790  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+	2019-07-26 00:00:08.790  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+	2019-07-26 00:00:08.795  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+	2019-07-26 00:00:08.796  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+	2019-07-26 00:00:08.797  INFO 2864 --- [  restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+	2019-07-26 00:00:08.800  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1564079408800 with initial instances count: 5
+	2019-07-26 00:00:08.804  INFO 2864 --- [  restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application CUSTOMER_RELATIONSHIP_SERVICE with eureka with status UP
+	2019-07-26 00:00:08.804  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1564079408804, current=UP, previous=STARTING]
+	2019-07-26 00:00:08.805  INFO 2864 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082: registering service...
+	2019-07-26 00:00:08.811  INFO 2864 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082 - registration status: 204
+	2019-07-26 00:00:08.819  INFO 2864 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+	2019-07-26 00:00:08.820  INFO 2864 --- [  restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+	2019-07-26 00:00:08.823  INFO 2864 --- [  restartedMain] m.CustomerRelationshipServiceApplication : Started CustomerRelationshipServiceApplication in 3.55 seconds (JVM running for 3311.92)
+	2019-07-26 00:00:08.829  INFO 2864 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+	2019-07-26 00:00:18.815  INFO 2864 --- [     Thread-104] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application CUSTOMER_RELATIONSHIP_SERVICE with eureka with status DOWN
+	2019-07-26 00:00:18.815  WARN 2864 --- [     Thread-104] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1564079418815, current=DOWN, previous=UP]
+	2019-07-26 00:00:18.816  INFO 2864 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082: registering service...
+	2019-07-26 00:00:18.819  INFO 2864 --- [     Thread-104] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+	2019-07-26 00:00:18.821  INFO 2864 --- [     Thread-104] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+	2019-07-26 00:00:18.823  INFO 2864 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082 - registration status: 204
+	2019-07-26 00:00:18.824  INFO 2864 --- [     Thread-104] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+	2019-07-26 00:00:18.829  INFO 2864 --- [     Thread-104] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082 - deregister  status: 200
+	2019-07-26 00:00:18.836  INFO 2864 --- [     Thread-104] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+	2019-07-26 00:00:19.278  INFO 2864 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f4fb9be3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+	
+	  .   ____          _            __ _ _
+	 /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+	( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+	 \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+	  '  |____| .__|_| |_|_| |_\__, | / / / /
+	 =========|_|==============|___/=/_/_/_/
+	 :: Spring Boot ::        (v2.1.6.RELEASE)
+	
+	2019-07-26 00:00:19.390  INFO 2864 --- [  restartedMain] m.CustomerRelationshipServiceApplication : No active profile set, falling back to default profiles: default
+	2019-07-26 00:00:19.918  INFO 2864 --- [  restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=fad44f56-2fda-3d8a-82e8-2730298227a2
+	2019-07-26 00:00:19.934  INFO 2864 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f4fb9be3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+	2019-07-26 00:00:20.123  INFO 2864 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+	2019-07-26 00:00:20.123  INFO 2864 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+	2019-07-26 00:00:20.124  INFO 2864 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+	2019-07-26 00:00:20.144  INFO 2864 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+	2019-07-26 00:00:20.144  INFO 2864 --- [  restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 751 ms
+	2019-07-26 00:00:20.172  WARN 2864 --- [  restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+	2019-07-26 00:00:20.172  INFO 2864 --- [  restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+	2019-07-26 00:00:20.253  INFO 2864 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+	2019-07-26 00:00:20.336  WARN 2864 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+	2019-07-26 00:00:20.588  INFO 2864 --- [  restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+	2019-07-26 00:00:20.591  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+	2019-07-26 00:00:20.599  INFO 2864 --- [  restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+	2019-07-26 00:00:20.599  INFO 2864 --- [  restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+	2019-07-26 00:00:20.599  INFO 2864 --- [  restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+	2019-07-26 00:00:20.599  INFO 2864 --- [  restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+	2019-07-26 00:00:20.703  INFO 2864 --- [  restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+	2019-07-26 00:00:20.705  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+	2019-07-26 00:00:20.705  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+	2019-07-26 00:00:20.705  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+	2019-07-26 00:00:20.705  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+	2019-07-26 00:00:20.705  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+	2019-07-26 00:00:20.705  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+	2019-07-26 00:00:20.705  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+	2019-07-26 00:00:20.709  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+	2019-07-26 00:00:20.710  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+	2019-07-26 00:00:20.711  INFO 2864 --- [  restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+	2019-07-26 00:00:20.713  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1564079420713 with initial instances count: 5
+	2019-07-26 00:00:20.715  INFO 2864 --- [  restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application CUSTOMER_RELATIONSHIP_SERVICE with eureka with status UP
+	2019-07-26 00:00:20.715  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1564079420715, current=UP, previous=STARTING]
+	2019-07-26 00:00:20.715  INFO 2864 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082: registering service...
+	2019-07-26 00:00:20.722  INFO 2864 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082 - registration status: 204
+	2019-07-26 00:00:20.729  INFO 2864 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+	2019-07-26 00:00:20.731  INFO 2864 --- [  restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+	2019-07-26 00:00:20.735  INFO 2864 --- [  restartedMain] m.CustomerRelationshipServiceApplication : Started CustomerRelationshipServiceApplication in 1.628 seconds (JVM running for 3323.833)
+	2019-07-26 00:00:20.742  INFO 2864 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+	2019-07-26 00:00:45.844  INFO 2864 --- [     Thread-115] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application CUSTOMER_RELATIONSHIP_SERVICE with eureka with status DOWN
+	2019-07-26 00:00:45.844  WARN 2864 --- [     Thread-115] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1564079445844, current=DOWN, previous=UP]
+	2019-07-26 00:00:45.844  INFO 2864 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082: registering service...
+	2019-07-26 00:00:45.846  INFO 2864 --- [     Thread-115] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+	2019-07-26 00:00:45.847  INFO 2864 --- [     Thread-115] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+	2019-07-26 00:00:45.850  INFO 2864 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082 - registration status: 204
+	2019-07-26 00:00:45.850  INFO 2864 --- [     Thread-115] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+	2019-07-26 00:00:45.853  INFO 2864 --- [     Thread-115] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082 - deregister  status: 200
+	2019-07-26 00:00:45.860  INFO 2864 --- [     Thread-115] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+	2019-07-26 00:00:46.332  INFO 2864 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f4fb9be3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+	
+	  .   ____          _            __ _ _
+	 /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+	( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+	 \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+	  '  |____| .__|_| |_|_| |_\__, | / / / /
+	 =========|_|==============|___/=/_/_/_/
+	 :: Spring Boot ::        (v2.1.6.RELEASE)
+	
+	2019-07-26 00:00:46.442  INFO 2864 --- [  restartedMain] m.CustomerRelationshipServiceApplication : No active profile set, falling back to default profiles: default
+	2019-07-26 00:00:46.936  INFO 2864 --- [  restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=fad44f56-2fda-3d8a-82e8-2730298227a2
+	2019-07-26 00:00:46.962  INFO 2864 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f4fb9be3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+	2019-07-26 00:00:47.118  INFO 2864 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+	2019-07-26 00:00:47.119  INFO 2864 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+	2019-07-26 00:00:47.119  INFO 2864 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+	2019-07-26 00:00:47.155  INFO 2864 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+	2019-07-26 00:00:47.155  INFO 2864 --- [  restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 710 ms
+	2019-07-26 00:00:47.183  WARN 2864 --- [  restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+	2019-07-26 00:00:47.183  INFO 2864 --- [  restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+	2019-07-26 00:00:47.260  INFO 2864 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+	2019-07-26 00:00:47.333  WARN 2864 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+	2019-07-26 00:00:47.548  INFO 2864 --- [  restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+	2019-07-26 00:00:47.551  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+	2019-07-26 00:00:47.558  INFO 2864 --- [  restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+	2019-07-26 00:00:47.558  INFO 2864 --- [  restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+	2019-07-26 00:00:47.558  INFO 2864 --- [  restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+	2019-07-26 00:00:47.558  INFO 2864 --- [  restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+	com.wcs.app.jf.main.dto2019-07-26 00:00:47.650  INFO 2864 --- [  restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+	2019-07-26 00:00:47.652  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+	2019-07-26 00:00:47.652  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+	2019-07-26 00:00:47.652  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+	2019-07-26 00:00:47.652  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+	2019-07-26 00:00:47.652  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+	2019-07-26 00:00:47.652  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+	2019-07-26 00:00:47.652  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+	2019-07-26 00:00:47.657  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+	2019-07-26 00:00:47.658  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+	2019-07-26 00:00:47.659  INFO 2864 --- [  restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+	2019-07-26 00:00:47.662  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1564079447662 with initial instances count: 5
+	2019-07-26 00:00:47.665  INFO 2864 --- [  restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application CUSTOMER_RELATIONSHIP_SERVICE with eureka with status UP
+	2019-07-26 00:00:47.665  INFO 2864 --- [  restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1564079447665, current=UP, previous=STARTING]
+	2019-07-26 00:00:47.665  INFO 2864 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082: registering service...
+	2019-07-26 00:00:47.671  INFO 2864 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082 - registration status: 204
+	2019-07-26 00:00:47.679  INFO 2864 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+	2019-07-26 00:00:47.680  INFO 2864 --- [  restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+	2019-07-26 00:00:47.682  INFO 2864 --- [  restartedMain] m.CustomerRelationshipServiceApplication : Started CustomerRelationshipServiceApplication in 1.533 seconds (JVM running for 3350.779)
+	2019-07-26 00:00:47.688  INFO 2864 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+	2019-07-26 00:01:10.846  INFO 2864 --- [     Thread-126] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application CUSTOMER_RELATIONSHIP_SERVICE with eureka with status DOWN
+	2019-07-26 00:01:10.846  WARN 2864 --- [     Thread-126] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1564079470846, current=DOWN, previous=UP]
+	2019-07-26 00:01:10.847  INFO 2864 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082: registering service...
+	2019-07-26 00:01:10.849  INFO 2864 --- [     Thread-126] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+	2019-07-26 00:01:10.850  INFO 2864 --- [     Thread-126] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+	2019-07-26 00:01:10.854  INFO 2864 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082 - registration status: 204
+	2019-07-26 00:01:10.854  INFO 2864 --- [     Thread-126] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+	2019-07-26 00:01:10.915  INFO 2864 --- [     Thread-126] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER_RELATIONSHIP_SERVICE/DESKTOP-QDM92AS:Customer_Relationship_Service:8082 - deregister  status: 200
+	2019-07-26 00:01:10.923  INFO 2864 --- [     Thread-126] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+	
+}
+
